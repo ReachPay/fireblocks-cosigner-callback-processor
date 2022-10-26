@@ -18,25 +18,12 @@ is-alive-middleware = { tag = "0.1.3", git = "https://github.com/ReachPay/is-ali
 
 my-logger = { tag = "0.2.0", git = "https://github.com/MyJetTools/my-logger.git" }
 
-my-seq-logger = { tag = "0.2.1", git = "https://github.com/MyJetTools/my-seq-logger.git" }
-
 rust-extensions = { tag = "0.1.2", git = "https://github.com/MyJetTools/rust-extensions.git" }
 
-my-settings-reader = { tag = "0.1.5", git = "https://github.com/MyJetTools/my-settings-reader.git", features = [
-    "background-reader",
-] }
-flurl = { tag = "0.2.3", git = "https://github.com/MyJetTools/fl-url.git" }
 fireblocks_sdk = { git = "https://github.com/MyJetTools/fireblocks_sdk.git", tag = "0.8.5" }
 
 tonic = { version = "*", features = ["tls", "tls-roots", "prost"] }
 tokio = { version = "*", features = ["full"] }
 async-trait = "*"
-prost = "*"
-prost-types = "*"
 serde = "*"
-serde_yaml = "*"
 serde_json = "*"
-
-
-[build-dependencies]
-tonic-build = { version = "*", features = ["prost"] }
