@@ -4,7 +4,7 @@ on:
     tags: "*"
 
 env:
-  IMAGE_NAME: %%%RegistryNameHere%%%/%%%PackageNameHere%%%
+  IMAGE_NAME: reachpay/fireblocks-cosigner-callback-processor
 
 
 jobs:
